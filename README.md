@@ -14,8 +14,8 @@ This project implements an image classification model using the **CIFAR-10 datas
 
 ```bash
 git clone https://github.com/syedmoaz14/image-classification-pytorch.git
-
-## Folder Structure:
+```
+### 1. Clone the repository:
 ```
 ├── .gitignore
 ├── README.md
