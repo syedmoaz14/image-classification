@@ -3,8 +3,8 @@
 This project implements an **image classification model** using the **CIFAR-10 dataset**. The model is built using **PyTorch**, and the goal is to classify images into 10 different categories such as airplanes, cars, dogs, etc.
 
 ## 🚀 Live Demo
+Check out the live demo of the project: [Try the Image Classification App](https://syedmoaz14-image-classification-app-gz8hgi.streamlit.app/)
 
-[Click here to try it out!](#)  
 
 ## 📸 Screenshots
 
