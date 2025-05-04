@@ -8,7 +8,11 @@ Check out the live demo of the project: [Try the Image Classification App](https
 
 ## 📸 Screenshots
 
-![App Screenshot](link-to-image.png)  
+### Interface
+![Interface](./screenshots/interface.png)
+
+### Result
+![Result](./screenshots/airplane_prediction_example.png)
 
 ## 🔬 How It Works
 
