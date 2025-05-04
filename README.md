@@ -41,9 +41,23 @@ git clone https://github.com/syedmoaz14/image-classification-pytorch.git
 ```
 ### 📑 Folder Structure:
 ```
-├── .gitignore
-├── README.md
-├── requirements.txt
-├── main.py
-├── /data
+image-classification1/
+├── .devcontainer/                  # Contains settings for dev container (if using one)
+├── data/                           # Folder for dataset (if any data is stored locally)
+├── sample-images/                  # Folder for sample images (input images for testing)
+│   ├── airplane.jpg                # Example image (airplane)
+│   ├── cat.jpg                     # Example image (cat)
+│   └── motorbike.jpg               # Example image (motorbike)
+├── screenshots/                    # Folder for storing screenshots of app
+│   ├── interface.png               # Screenshot showing the app interface
+│   └── result.png                  # Screenshot showing the result of predictions
+├── .gitignore                      # Git ignore file
+├── .gitattributes                  # Git attributes file
+├── LICENSE                         # Project license file
+├── README.md                       # Project README file
+├── cifar10_model.pth               # Trained model saved in PyTorch format
+├── app.py                          # Streamlit app to deploy the model
+├── main.py                         # Main Python script for model training
+└── requirements.txt                # List of required Python libraries for the project
+
 ```
