@@ -42,15 +42,18 @@ git clone https://github.com/syedmoaz14/image-classification-pytorch.git
 ### 📑 Folder Structure:
 ```
 image-classification1/
-├── .devcontainer/                  # Contains settings for dev container (if using one)
-├── data/                           # Folder for dataset (if any data is stored locally)
+├── .devcontainer/                  # Dev container configuration
+├── data/                           # Folder for dataset
 ├── sample-images/                  # Folder for sample images (input images for testing)
-│   ├── airplane.jpg                # Example image (airplane)
-│   ├── cat.jpg                     # Example image (cat)
-│   └── motorbike.jpg               # Example image (motorbike)
+│   ├── automobile/
+│   │   ├── airplane.jpg            # Example airplane image
+│   │   └── car1.jpg                # Example car image
+│   ├── cat/
+│   │   ├── cat.jpg                 # Example cat image
+│   │   └── cat1.jpg                # Another cat image
 ├── screenshots/                    # Folder for storing screenshots of app
-│   ├── interface.png               # Screenshot showing the app interface
-│   └── result.png                  # Screenshot showing the result of predictions
+│   ├── airplane_prediction_example.png  # Screenshot showing the predicted class of an airplane
+│   ├── interface.png               # Screenshot of the app interface
 ├── .gitignore                      # Git ignore file
 ├── .gitattributes                  # Git attributes file
 ├── LICENSE                         # Project license file
